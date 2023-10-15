@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+                        /* header css */
+.header {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    background-color: #ddd8d8;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo {
+    width: 20%;
+    height: 70px;
+    color: rgba(4, 4, 4, 0.993);
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Autour One', cursive;
+    font-size: 30px;
+}
+
+.nav
+{
+    width: 60%;
+    height: 50px;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.nav-links
+{
+    width: 100%;
+    height: 70px;
+    /* background-color: red; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Autour One', cursive; 
+} 
+ 
+                         /* banner css */
+
+.banner
+{
+    width: 100%;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 30px ; */
+    display: flex;
+    background-color: #ddd8d8;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.my-detail
+{
+    padding: 20px;
+    width: 45%;
+    /* background-color: white; */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 20px;
+}
+
+.t1
+{
+    font-size: 60px;
+}
+
+.t2
+{
+    color: #5b5bb0;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.desc
+{
+    font-size: 20px;
+}
+
+.btn{
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: rgb(255, 255, 255);
+    background-color:#5b5bb0;
+    border: 2px solid#5b5bb0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2ms;
+}
+
+.btn:hover
+{
+    background-color: transparent;
+    color: #5b5bb0;
+}
+
+.person
+{
+    
+    /* align-self: flex-end; */
+    /* background-color: blue; */
+}
+
+.person-img
+{
+   
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/* services css  */
+
+.services
+
+{
+    width: 100%;
+    padding: 30px 5%;
+    /* background-color: red; */
+    padding: 0px 10%;
+    box-sizing: border-box;
+
+}
+
+.services-title
+{
+    font-size: 50px;
+    font-weight: 200;
+    padding-top: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-child
+{
+    width: 100%;
+    padding: 30px 0px ;
+    /* background-color: white; */
+    margin-top: 30px;
+    display: flex;
+    column-gap: 4%;
+    /* background-color: rgb(206, 10, 10); */
+}
+
+.service
+{
+    width: 20%;
+    /* background-color: yellow; */
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding: 20px;
+    box-shadow:  0 0 2px ;
+    border-radius: 10px;
+    
+}
+
+.icon
+{
+    align-self: center;
+    font-size: 50px;
+    padding: 20px;
+    
+}
+
+.view-btn
+{
+    padding: 12px 25px;
+    font-size: 15px;
+    /* margin-top: 10px; */
+    color: rgb(255, 255, 255);
+    background-color:#5b5bb0;
+    border: 2px solid#5b5bb0;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    
+}
+
+/* achievment */
+
+.achievements
+{
+    padding:30px 8%;
+    background-color: #e2e2e2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.achievement
+{
+    width: 18%;
+    padding: 40px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.achievements-child 
+{
+    column-gap: 2.5%;
+}
+
+.number
+{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.tag
+{
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* quote css  */
+
+.quote 
+{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-image: url('https://images.pexels.com/photos/39284/macbook-apple-imac-computer-39284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+}
+
+.overlay 
+{
+    width: 100%;
+    height: 100%;
+    padding: 30px 10%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.quote-area
+{
+    width: 100%;
+    padding: 30px 0px;
+    /* background-color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inp-email
+{
+    width: 70%;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 18px;
+    text-indent: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+::placeholder
+{
+    color: white;
+}
+
+/* quote  */
+
+.text-in-img
+{
+    width:100% ;
+    height: 120px;
+    background-image: url("https://img.freepik.com/premium-photo/modern-colorful-background-flow-paints-wave-color-liquid-form-abstract-design_911620-2754.jpg");
+    font-family: 'Autour One', cursive;
+    font-size: 70PX;
+    background-size: cover;
+    background-position: center;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 500;
+    
+
+}
+
+.we_made
+{
+    padding-top: 10px;
+    padding-left: 25%;
+    align-items: center;
+    justify-content: center;
+}
+/* clients css  */
+
+.clients 
+{
+    width:100%;
+    padding: 30px 10%;
+    box-sizing: border-box;
+    /* background-color: red; */
+}
+
+.client-section-child
+{
+    /* background-color: white; */
+    column-gap: 5%;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.client-img
+{
+    width: 8%;
+    filter: grayscale(100%);
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.client-img:hover 
+{
+    filter: grayscale(0);
+    transform: scale(1.2);
+}
+
+/* footer css  */
+
+
+.footer  
+{
+    width: 100%;
+    padding: 30px 10%;
+   background-color: #4a4a4a;
+   font-family: 'Montserrat', sans-serif;
+   color: white;
+   box-sizing: border-box;
+}
+
+
+
+.footer-child
+{
+    width: 22%;
+    padding: 20px 50px;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.footer-list
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+
+.map 
+{
+    width: 46%;
+    padding: 0;
+}
